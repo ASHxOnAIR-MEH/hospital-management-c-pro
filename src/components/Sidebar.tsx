@@ -80,7 +80,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isMobileOpen, onCloseMobile })
       <aside className={`sidebar ${isMobileOpen ? 'mobile-open' : ''}`}>
         <div className="sidebar-header">
           <div className="hospital-logo-badge" title="Hospital Bed Monitor">
-            🏥
+            <Activity size={24} color="#ffffff" strokeWidth={2.5} />
           </div>
           <div className="brand-text">
             <h1>Bed Monitor</h1>

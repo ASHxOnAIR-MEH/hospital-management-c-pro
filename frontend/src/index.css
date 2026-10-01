@@ -27,11 +27,12 @@
 
   /* Typography */
   --text-main: #0f172a;
-  --text-muted: #475569;
-  --text-dim: #94a3b8;
+  --text-muted: #334155;
+  --text-dim: #64748b;
   --text-inverse: #ffffff;
-  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Times New Roman', Times, 'Liberation Serif', Georgia, serif;
+  --font-serif: 'Times New Roman', Times, 'Liberation Serif', Georgia, serif;
+  --font-mono: 'Courier New', Courier, monospace;
 
   /* Hospital Bed Status Colors (Standardized) */
   /* 1. AVAILABLE (Green) */
@@ -70,11 +71,11 @@
   --status-maintenance-glow: rgba(100, 116, 139, 0.2);
 
   /* Elevating Shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
-  --shadow-modal: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 4px 8px -1px rgba(15, 23, 42, 0.1), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 12px 20px -3px rgba(15, 23, 42, 0.12), 0 4px 6px -4px rgba(15, 23, 42, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.15), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+  --shadow-modal: 0 25px 50px -12px rgba(15, 23, 42, 0.35);
 
   /* Corner Radii */
   --radius-sm: 8px;
@@ -120,10 +121,10 @@ button {
   display: flex;
   min-height: 100vh;
   width: 100vw;
-  background: var(--bg-app);
+  background: #0f172a;
 }
 
-/* Main Content Area */
+/* Main Content Area with Responsive Hospital Background */
 .main-wrapper {
   flex: 1;
   display: flex;
@@ -131,6 +132,15 @@ button {
   min-width: 0;
   height: 100vh;
   overflow: hidden;
+  position: relative;
+  background-color: #f1f5f9;
+  background-image: 
+    linear-gradient(135deg, rgba(248, 250, 252, 0.93) 0%, rgba(241, 245, 249, 0.90) 50%, rgba(226, 232, 240, 0.94) 100%),
+    url('/hospital_bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .content-scrollable {
@@ -140,6 +150,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  background: transparent;
 }
 
 /* ==========================================================================
@@ -281,8 +292,10 @@ button {
    ========================================================================== */
 .topbar {
   height: var(--topbar-height);
-  background-color: var(--bg-card);
-  border-bottom: 1px solid var(--border-light);
+  background-color: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.85);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -291,6 +304,7 @@ button {
   position: sticky;
   top: 0;
   z-index: 10;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
 }
 
 .topbar-left {
