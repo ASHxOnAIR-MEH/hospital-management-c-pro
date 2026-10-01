@@ -1,0 +1,9 @@
+setting_key,setting_value,description,last_updated
+hospital_name,City Memorial Hospital,Official registered facility name,2026-10-01 00:00:00
+hospital_code,CMH-MAIN,Unique hospital branch code,2026-10-01 00:00:00
+timezone,Asia/Kolkata,Standard hospital operational timezone,2026-10-01 00:00:00
+system_status,ONLINE,Real-time monitoring network status (ONLINE/MAINTENANCE),2026-10-01 10:30:00
+admin_email,admin@citymemorial.org,Primary administrator contact for escalations,2026-10-01 00:00:00
+auto_refresh_seconds,30,Dashboard polling and sync interval in seconds,2026-10-01 00:00:00
+emergency_contact_ext,1100,Internal rapid ER trauma bay contact extension,2026-10-01 00:00:00
+cleaning_sla_minutes,45,Standard expected cleaning turnaround target,2026-10-01 00:00:00

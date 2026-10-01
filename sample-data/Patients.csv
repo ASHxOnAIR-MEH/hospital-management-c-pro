@@ -1,0 +1,21 @@
+patient_id,bed_id,admission_date,discharge_date,status
+P1000,ICU-002,2026-10-01,-,Admitted
+P1001,-,2026-10-01,2026-10-01,Discharged
+P1002,ICU-004,2026-10-01,-,Admitted
+P1003,ICU-005,2026-10-01,-,Reserved
+P1004,ER-101,2026-10-01,-,Admitted
+P1005,ER-103,2026-10-01,-,Admitted
+P1006,ER-106,2026-10-01,-,Reserved
+P1007,GEN-201,2026-09-28,-,Admitted
+P1008,GEN-202,2026-09-30,-,Admitted
+P1009,GEN-206,2026-09-30,-,Admitted
+P1010,PED-301,2026-09-30,-,Admitted
+P1011,PED-303,2026-10-01,-,Admitted
+P1012,PVT-401,2026-09-29,-,Admitted
+P1013,PVT-404,2026-10-01,-,Reserved
+P1014,-,2026-09-26,2026-10-01,Discharged
+P1015,-,2026-09-27,2026-09-30,Discharged
+P1016,-,2026-10-01,2026-10-01,Discharged
+P1017,-,2026-10-01,-,Awaiting Bed
+P9001,-,2026-10-01,2026-10-01,Discharged
+P9002,-,2026-10-01,2026-10-01,Discharged

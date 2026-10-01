@@ -1,0 +1,26 @@
+bed_id,ward,floor,room,bed_type,status,patient_id,active
+ICU-001,ICU,1,101,ICU Ventilator,Available,,1
+ICU-002,ICU,1,102,ICU Ventilator,Occupied,P1001,1
+ICU-003,ICU,1,103,ICU Step-down,Cleaning,,1
+ICU-004,ICU,1,104,ICU Step-down,Reserved,P1002,1
+ICU-005,ICU,1,105,ICU Isolation,Maintenance,,1
+ICU-006,ICU,1,106,ICU Ventilator,Available,,1
+GEN-201,General Ward,2,201,Standard Ward,Available,,1
+GEN-202,General Ward,2,201,Standard Ward,Occupied,P1003,1
+GEN-203,General Ward,2,202,Standard Ward,Occupied,P1004,1
+GEN-204,General Ward,2,202,Standard Ward,Cleaning,,1
+GEN-205,General Ward,2,203,Semi-Fowler,Available,,1
+GEN-206,General Ward,2,203,Semi-Fowler,Occupied,P1005,1
+EMG-101,Emergency,1,Bay 1,Trauma Bed,Occupied,P1006,1
+EMG-102,Emergency,1,Bay 2,Trauma Bed,Available,,1
+EMG-103,Emergency,1,Bay 3,Resuscitation Bed,Available,,1
+EMG-104,Emergency,1,Bay 4,Observation Bed,Cleaning,,1
+EMG-105,Emergency,1,Bay 5,Observation Bed,Maintenance,,1
+PED-301,Pediatric,3,301,Pediatric Crib,Available,,1
+PED-302,Pediatric,3,301,Pediatric Bed,Occupied,P1007,1
+PED-303,Pediatric,3,302,Pediatric Bed,Occupied,P1008,1
+PED-304,Pediatric,3,302,Pediatric Isolation,Available,,1
+PVT-401,Private Ward,4,Deluxe 1,Deluxe Electric,Available,,1
+PVT-402,Private Ward,4,Deluxe 2,Deluxe Electric,Occupied,P1009,1
+PVT-403,Private Ward,4,Suite 1,Executive Suite,Reserved,P1010,1
+PVT-404,Private Ward,4,Suite 2,Executive Suite,Cleaning,,1

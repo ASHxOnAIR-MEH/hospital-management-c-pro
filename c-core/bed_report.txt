@@ -1,0 +1,61 @@
+====================================================
+                HOSPITAL BED REPORT                 
+====================================================
+Total Beds      : 25
+Available       : 9
+Occupied        : 8
+Cleaning        : 4
+Reserved        : 2
+Maintenance     : 2
+
+Occupancy Rate  : 32.0%
+----------------------------------------------------
+
+WARD SUMMARY
+----------------------------
+ICU
+Total           : 6
+Available       : 2
+Occupied        : 1
+Cleaning        : 1
+Reserved        : 1
+Maintenance     : 1
+Occupancy       : 16.7%
+
+General Ward
+Total           : 6
+Available       : 2
+Occupied        : 3
+Cleaning        : 1
+Occupancy       : 50.0%
+
+Emergency
+Total           : 5
+Available       : 2
+Occupied        : 1
+Cleaning        : 1
+Maintenance     : 1
+Occupancy       : 20.0%
+
+Pediatric
+Total           : 4
+Available       : 2
+Occupied        : 2
+Cleaning        : 0
+Occupancy       : 50.0%
+
+Private Ward
+Total           : 4
+Available       : 1
+Occupied        : 1
+Cleaning        : 1
+Reserved        : 1
+Occupancy       : 25.0%
+
+FLOOR SUMMARY
+----------------------------------------------------
+Floor 1 -> Total: 11 | Avail:  4 | Occ:  2 | Clean:  2 | Rate: 18.2%
+Floor 2 -> Total:  6 | Avail:  2 | Occ:  3 | Clean:  1 | Rate: 50.0%
+Floor 3 -> Total:  4 | Avail:  2 | Occ:  2 | Clean:  0 | Rate: 50.0%
+Floor 4 -> Total:  4 | Avail:  1 | Occ:  1 | Clean:  1 | Rate: 25.0%
+====================================================

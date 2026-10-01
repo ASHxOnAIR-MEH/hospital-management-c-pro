@@ -1,0 +1,6 @@
+ward_id,ward_name,floor,total_beds,active
+W001,ICU,1,6,TRUE
+W002,General Ward,2,6,TRUE
+W003,Emergency,1,6,TRUE
+W004,Pediatric,3,5,TRUE
+W005,Private Ward,4,5,TRUE

@@ -1,0 +1,29 @@
+bed_id,ward_id,ward_name,floor,room,bed_type,status,patient_id,last_updated,updated_by,active
+ICU-001,W001,ICU,1,101,ICU Ventilator,Available,-,2026-10-01 23:27:48,Sanitation Staff,TRUE
+ICU-002,W001,ICU,1,101,ICU Ventilator,Occupied,P1000,2026-10-01 08:15,Nurse Jhanvi,TRUE
+ICU-003,W001,ICU,1,102,Cardiac Monitoring,Cleaning,-,2026-10-01 09:45,Admin,TRUE
+ICU-004,W001,ICU,1,102,ICU Ventilator,Occupied,P1002,2026-10-01 10:32,Nurse Jhanvi,TRUE
+ICU-005,W001,ICU,1,103,Cardiac Monitoring,Reserved,P1003,2026-10-01 07:20,Dr. Michael Chen,TRUE
+ICU-006,W001,ICU,1,103,ICU Ventilator,Maintenance,-,2026-09-30 16:00,Admin,TRUE
+ER-101,W003,Emergency,1,Bay 1,Trauma Care,Occupied,P1004,2026-10-01 10:05,Sarah Jenkins,TRUE
+ER-102,W003,Emergency,1,Bay 1,Standard Acute,Available,-,2026-10-01 10:18,Sarah Jenkins,TRUE
+ER-103,W003,Emergency,1,Bay 2,Cardiac Monitoring,Occupied,P1005,2026-10-01 09:12,Nurse Jhanvi,TRUE
+ER-104,W003,Emergency,1,Bay 2,Standard Acute,Cleaning,-,2026-10-01 10:24,Admin,TRUE
+ER-105,W003,Emergency,1,Bay 3,Resuscitation,Available,-,2026-10-01 06:00,Nurse Jhanvi,TRUE
+ER-106,W003,Emergency,1,Bay 3,Standard Acute,Reserved,P1006,2026-10-01 10:29,Sarah Jenkins,TRUE
+GEN-201,W002,General Ward,2,Room 201,Standard Care,Available,-,2026-10-01 23:27:48,Test,TRUE
+GEN-202,W002,General Ward,2,Room 201,Standard Care,Occupied,P1008,2026-09-30 11:30,David Kim,TRUE
+GEN-203,W002,General Ward,2,Room 202,Standard Care,Available,-,2026-10-01 09:00,David Kim,TRUE
+GEN-204,W002,General Ward,2,Room 202,Standard Care,Available,-,2026-10-01 09:15,David Kim,TRUE
+GEN-205,W002,General Ward,2,Room 203,Standard Care,Cleaning,-,2026-10-01 10:10,Admin,TRUE
+GEN-206,W002,General Ward,2,Room 203,Standard Care,Occupied,P1009,2026-09-30 16:45,David Kim,TRUE
+PED-301,W004,Pediatric,3,Room 301,Pediatric Crib,Occupied,P1010,2026-09-30 08:30,Nurse Jhanvi,TRUE
+PED-302,W004,Pediatric,3,Room 301,Pediatric Crib,Available,-,2026-10-01 09:10,Nurse Jhanvi,TRUE
+PED-303,W004,Pediatric,3,Room 302,Youth Standard,Occupied,P1011,2026-10-01 08:20,Nurse Jhanvi,TRUE
+PED-304,W004,Pediatric,3,Room 302,Pediatric Crib,Cleaning,-,2026-10-01 10:00,Admin,TRUE
+PED-305,W004,Pediatric,3,Room 303,Youth Standard,Available,-,2026-10-01 06:30,Nurse Jhanvi,TRUE
+PVT-401,W005,Private Ward,4,Suite 401,Deluxe Electric,Occupied,P1012,2026-09-29 15:00,Sarah Jenkins,TRUE
+PVT-402,W005,Private Ward,4,Suite 402,Deluxe Electric,Available,-,2026-10-01 08:45,Sarah Jenkins,TRUE
+PVT-403,W005,Private Ward,4,Suite 403,Deluxe Electric,Available,-,2026-10-01 09:30,Sarah Jenkins,TRUE
+PVT-404,W005,Private Ward,4,Suite 404,Deluxe Electric,Reserved,P1013,2026-10-01 09:00,Sarah Jenkins,TRUE
+PVT-405,W005,Private Ward,4,Suite 405,Deluxe Electric,Maintenance,-,2026-09-29 10:00,Admin,TRUE

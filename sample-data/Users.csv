@@ -1,0 +1,8 @@
+user_id,name,role,department,active
+U001,Dr. Rajesh Kumar,Admin,Hospital Administration,TRUE
+U002,Nurse Jhanvi Patel,Nurse,ICU & Critical Care,TRUE
+U003,Sarah Jenkins,Receptionist,Patient Intake & Admissions,TRUE
+U004,David Kim,Nurse,General & Surgical Ward,TRUE
+U005,Nurse Marcus Vance,Nurse,Emergency Department,TRUE
+U006,Dr. Michael Chen,Viewer,Clinical Operations,TRUE
+U007,Priya Nair,Viewer,Nursing Quality & Audit,TRUE

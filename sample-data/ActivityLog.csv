@@ -1,0 +1,40 @@
+timestamp,user_id,user_name,action,bed_id,old_status,new_status,details
+2026-10-01 10:32:00,U002,Nurse Jhanvi Patel,STATUS_CHANGE,ICU-004,Available,Occupied,Admitted patient P1002 from ER trauma
+2026-10-01 10:29:00,U003,Sarah Jenkins,STATUS_CHANGE,ER-106,Available,Reserved,Inbound ambulance #4 ETA 8 mins
+2026-10-01 10:24:00,U001,Dr. Rajesh Kumar,STATUS_CHANGE,ER-104,Occupied,Cleaning,Patient P1015 discharged; bed sent for sanitization
+2026-10-01 10:18:00,U003,Sarah Jenkins,STATUS_CHANGE,ER-102,Cleaning,Available,Housekeeping completed disinfection
+2026-10-01 10:10:00,U001,Dr. Rajesh Kumar,STATUS_CHANGE,GEN-205,Occupied,Cleaning,Patient stepped down; terminal cleaning requested
+2026-10-01 10:05:00,U003,Sarah Jenkins,STATUS_CHANGE,ER-101,Available,Occupied,Patient P1004 intake from triage bay
+2026-10-01 10:00:00,U001,Dr. Rajesh Kumar,STATUS_CHANGE,PED-304,Occupied,Cleaning,Discharge complete; UV wipe in progress
+2026-10-01 09:45:00,U002,Nurse Jhanvi Patel,STATUS_CHANGE,ICU-003,Occupied,Cleaning,Patient transferred to general ward
+2026-10-01 09:15:00,U004,David Kim,STATUS_CHANGE,GEN-204,Cleaning,Available,Linens changed and inspected
+2026-10-01 09:12:00,U002,Nurse Jhanvi Patel,STATUS_CHANGE,ER-103,Available,Occupied,Patient P1005 continuous telemetry monitoring
+2026-10-01 09:10:00,U002,Nurse Jhanvi Patel,STATUS_CHANGE,PED-302,Cleaning,Available,Disinfected; colorful linens prepped
+2026-10-01 09:00:00,U003,Sarah Jenkins,STATUS_CHANGE,PVT-404,Available,Reserved,Elective admission scheduled for 13:00
+2026-10-01 08:15:00,U002,Nurse Jhanvi Patel,STATUS_CHANGE,ICU-002,Available,Occupied,Direct intake from ambulance bay
+2026-10-01 07:20:00,U006,Dr. Michael Chen,STATUS_CHANGE,ICU-005,Available,Reserved,Reserved for post-cardiac surgery recovery
+2026-09-30 16:00:00,U001,Dr. Rajesh Kumar,STATUS_CHANGE,ICU-006,Available,Maintenance,Oxygen flow valve sensor replacement
+2026-10-01 21:00:27,U001,Nurse Jhanvi,PATIENT_ASSIGN,ICU-001,Available,Occupied,"Assigned patient P1016 to ICU-001"
+2026-10-01 21:01:29,U001,Nurse Jhanvi,PATIENT_DISCHARGE,ICU-001,Occupied,Cleaning,"Patient P1016 discharged; bed set to Cleaning"
+2026-10-01 21:01:48,U001,Sanitation Team,STATUS_CHANGE,ICU-001,Cleaning,Available,"Status changed from Cleaning to Available"
+2026-10-01 21:13:18,U001,Nurse Jhanvi,PATIENT_ASSIGN,ICU-001,Available,Occupied,"Assigned patient P1001 to ICU-001"
+2026-10-01 21:14:04,U001,Nurse Jhanvi,PATIENT_DISCHARGE,ICU-001,Occupied,Cleaning,"Patient P1001 discharged; bed set to Cleaning"
+2026-10-01 21:15:11,U001,Sanitation Team,STATUS_CHANGE,ICU-001,Cleaning,Available,"Deep UV sanitization and terminal cleaning verified"
+2026-10-01 21:48:27,U001,TestRunner,STATUS_CHANGE,ICU-001,Available,Available,"Status changed from Available to Available"
+2026-10-01 21:48:27,U001,Nurse Sarah,PATIENT_ASSIGN,ICU-001,Available,Occupied,"Admitted from Emergency Triage"
+2026-10-01 21:48:27,U001,Dr. Robert,PATIENT_DISCHARGE,ICU-001,Occupied,Cleaning,"Patient discharged; bed sent for sanitization"
+2026-10-01 21:48:27,U001,Sanitation Staff,STATUS_CHANGE,ICU-001,Cleaning,Available,"UV Sterilization and deep cleaning complete"
+2026-10-01 21:48:27,U001,Test,STATUS_CHANGE,GEN-201,Occupied,Available,"Status changed from Occupied to Available"
+2026-10-01 21:48:27,U001,Test,PATIENT_ASSIGN,GEN-201,Available,Occupied,"Assigned patient P9002 to GEN-201"
+2026-10-01 21:48:27,U001,Test,PATIENT_DISCHARGE,GEN-201,Occupied,Cleaning,"Patient P9002 discharged; bed set to Cleaning"
+2026-10-01 21:48:27,U001,Test,STATUS_CHANGE,GEN-201,Cleaning,Available,"Status changed from Cleaning to Available"
+2026-10-01 21:48:27,U001,Admin,BED_DEACTIVATE,PVT-404,Reserved,Maintenance,"Bed deactivated"
+2026-10-01 21:49:13,U001,TestRunner,STATUS_CHANGE,ICU-001,Available,Available,"Status changed from Available to Available"
+2026-10-01 21:49:13,U001,Nurse Sarah,PATIENT_ASSIGN,ICU-001,Available,Occupied,"Admitted from Emergency Triage"
+2026-10-01 21:49:13,U001,Dr. Robert,PATIENT_DISCHARGE,ICU-001,Occupied,Cleaning,"Patient discharged; bed sent for sanitization"
+2026-10-01 21:49:13,U001,Sanitation Staff,STATUS_CHANGE,ICU-001,Cleaning,Available,"UV Sterilization and deep cleaning complete"
+2026-10-01 21:49:13,U001,Test,STATUS_CHANGE,GEN-201,Available,Available,"Status changed from Available to Available"
+2026-10-01 21:49:13,U001,Test,PATIENT_ASSIGN,GEN-201,Available,Occupied,"Assigned patient P9002 to GEN-201"
+2026-10-01 21:49:13,U001,Test,PATIENT_DISCHARGE,GEN-201,Occupied,Cleaning,"Patient P9002 discharged; bed set to Cleaning"
+2026-10-01 21:49:13,U001,Test,STATUS_CHANGE,GEN-201,Cleaning,Available,"Status changed from Cleaning to Available"
+2026-10-01 21:49:13,U001,Admin,BED_DEACTIVATE,PVT-404,Reserved,Maintenance,"Bed deactivated"
